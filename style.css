@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-width: 736px;
+    margin: auto;
+    font-family: 'Maitree', serif;
+    background-color: rgb(178, 221, 248);
+}
+header {
+    background-color: aquamarine;
+    background-image: url(https://wallpapers.com/images/high/summer-drinks-5040-x-3360-wallpaper-r3berafq5og588xz.webp);
+    background-size: cover;
+    background-position: center;
+    /* height: 70px; */
+    /* padding-block: 25px;
+    padding-inline: 10px; */
+    min-height: 200px;
+}
+nav {
+    /* background-color: lightseagreen; */
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: lightskyblue;
+}
+/* nav > * {
+    color: blue;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 16px;
+} */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+.prev {
+    font-size: 20px;
+}
+.button-group button {
+    border: none;
+    border-radius: 15%;
+}
+.welcome {
+    font-size: 32px;
+    color: cadetblue;
+    text-align: center;
+    background-color: rgb(178, 221, 248);
+    /* background-color: greenyellow; */
+    margin-top: 0px;
+}
+.select-header {
+    background-color:rgb(178, 221, 248);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    color: blue;
+}
+.item-row {
+    background-color:rgb(178, 221, 248);
+    /* border: 1px dashed lime; */
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.item {
+    border: none;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 80px;
+
+}
+.menu_name {
+    max-width: 120px;
+    text-align: center;
+}
